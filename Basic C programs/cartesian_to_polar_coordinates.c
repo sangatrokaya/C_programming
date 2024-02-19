@@ -21,7 +21,7 @@ int main ()
     r = sqrt (x *x + y*y);
     /* calculating theta in radian */
     theta = atan (y/x);
-    /* Converting theta from degree to radian */
+    /* Converting theta from radian to degree */
     theta = 180.0 * theta / PI;
 
     printf("Polar coordinate is: (%0.2f, %0.2f)", r,theta);
