@@ -1,27 +1,26 @@
 // C program to find largest among N numbers
-// C program to find smallest among N numbers
 #include<stdio.h>
 int main ()
 {
     int n, i;
-    float s,  num;
+    float lg,  num;
     printf("How many numbers? : \n");
     scanf("%d", &n);
     printf("Enter number-1 : ");
     scanf("%f", &num);
 
-    s = num;   /* Assume the first number is the smallest */
+    lg = num;   /* Assume the first number is the smallest */
     i = 2;
     while (i <= n)
     {
         printf("Enter number-%d : ", i);
         scanf("%f", &num);
-        if (num < s)
+        if (num > lg)
         {
-            s = num;
+            lg = num;
         }
         i++;
     }
-    printf("Smallest number is %0.2f", s);
+    printf("Largest number is %0.2f", lg);
     return 0;
 }
