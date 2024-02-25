@@ -16,4 +16,14 @@
 
 ## Applications of C lanuage:
 
+    1. Operating systems:
+        - you can write your own OS using C.
+        - Popular OS like Microsoft's Windows kernel, Linux kernel and Apple's OS X kernel  were all mostly written in C.
     
+    2. Language Compilers:
+        - compilers are programs to translate high level language to machine language.
+        - most of the modern compilers are made in C.
+        - Even part of C compiler is written in C.
+        - Fun saying: *C language is written in C language and C compiler is used to compile C language :grinning*
+
+
