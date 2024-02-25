@@ -24,7 +24,7 @@
         - compilers are programs to translate high level language to machine language.
         - most of the modern compilers are made in C.
         - Even part of C compiler is written in C.
-        - Fun saying: **C language is written in C language and C compiler is used to compile C language.
+        - Fun saying: C language is written in C language and C compiler is used to compile C language.
     
     3. Language Interpreters:
         - are also program to translate high level language to machine language.
